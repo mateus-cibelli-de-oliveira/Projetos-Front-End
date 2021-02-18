@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Formulário!</title>
+    <style>
+div {
+    background: hsl(0, 3%, 28%);
+    padding: 8px;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -1%;
+    color: orange;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+body {
+    background: rgb(196, 186, 187);
+}
+form {
+    padding: 40px;
+    margin:auto;
+    margin-left: 395px;
+    color: rgb(196, 0, 0);
+}
+.inputname1 {
+    padding: 5px;
+    width: 15%;  
+}
+.inputname2 {
+    padding: 5px;
+    width: 20%;
+    margin-left: 10px;
+}
+label{
+    float: center;
+    margin-right: 10px;
+}
+.inputdata {
+    width: 4%;
+    padding: 5px;
+    margin: 40px;
+    margin-left: 2px;
+}
+.inputmes {
+    padding: 5px;
+    width: 12%;
+    margin-left: -40px;
+}
+.inputano {
+    padding: 5px;
+    width: 10%;
+    margin-left: 0px;
+}
+.inputcontato {
+    padding: 5px;
+    width: 21%;
+}
+.inputemail {
+    padding: 5px;
+    width: 35%;
+    margin: 40px;
+    margin-left: 6pt;
+}
+.inputnacional {
+    padding: 5px;
+    width: 29%;
+    margin-left: 6pt;
+}
+.inputcargo {
+    padding: 5px;
+    width: 35%;
+    margin: 40px;
+    margin-left: 7pt;
+}
+.inputdisponibilidade {
+    padding: 5px;
+    width: 27%;
+    margin-left: 10pt;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Formulário de Recrutamento</h1>
+    </div>
+<form>
+        <label for="nome"><strong>Nome Completo:</strong></label>
+        <input class="inputname1" id="nome" placeholder="Primeiro Nome"/>  
+        <label for="sobrenome"></label>     
+        <input class="inputname2" id="sobrenome" placeholder="Último Nome"/><br> 
+        <label for="nascimento"><strong>Data de Nascimento:</strong></label>
+        <input class="inputdata" id="dia" placeholder="Dia"/>
+        <input class="inputmes" id="mes" placeholder="Mês"/>
+        <input class="inputano" id="ano" placeholder="Ano"/><br>
+        <label for="contato"><strong>Contato:</strong></label>
+        <input class="inputcontato" id="contato" placeholder="Celular"/><br>
+        <label for="email"><strong>E-mail:</strong></label>
+        <input class="inputemail" id="email" placeholder="Digite seu E-mail"/><br>
+        <label for="nacionalidade"><strong>Nacionalidade:</strong></label>
+        <input class="inputnacional" id="nacionalidade" placeholder="Digite seu país de Origem"/><br>
+        <label for="cargo"><strong>Cargo:</strong></label>
+        <input class="inputcargo" id="cargo" placeholder="Digite o cargo desejado"/><br>
+        <label for="disponibilidade"><strong>Disponibilidade:</strong></label>
+        <input class="inputdisponibilidade" id="disponibilidade" placeholder="Disponibilidade de Horário"/>
+</form>
+</body>
+</html>
