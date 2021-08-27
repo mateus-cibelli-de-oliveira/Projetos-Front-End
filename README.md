@@ -1,2 +1,2 @@
-# Formularios em HTML/CSS
+# Formulários em HTML/CSS
  Meus primeiros projetos de Desenvolvimento Front-End!
